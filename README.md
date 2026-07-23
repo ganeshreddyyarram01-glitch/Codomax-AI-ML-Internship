@@ -1,5 +1,3 @@
-# Codomax-AI-ML-Internship
-AI &amp; ML Internship Projects - Codomax Digital Solutions
 # Codomax AI/ML Internship
 
 This repository contains my daily tasks and projects completed during the **Codomax Digital Solutions AI/ML Internship**.
