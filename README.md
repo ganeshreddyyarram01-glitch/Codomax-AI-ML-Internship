@@ -24,13 +24,15 @@ This repository contains my daily tasks and projects completed during the **Codo
 
 ## 📂 Repository Structure
 
-```
+```text
 Codomax-AI-ML-Internship/
 ├── README.md
 ├── Day1.ipynb
 ├── Day2.ipynb
 ├── Day3.ipynb
-└── Day4.ipynb
+├── Day4.ipynb
+├── student_scores.csv
+└── .gitignore
 ```
 
 ## 🎯 Learning Outcome
