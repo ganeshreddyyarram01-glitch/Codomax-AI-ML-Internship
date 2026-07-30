@@ -19,6 +19,7 @@ This repository contains my daily tasks and projects completed during the **Codo
 | Day 3 | NumPy Fundamentals | ✅ Completed |
 | Day 4 | Pandas & Dataset Loading | ✅ Completed |
 | Day 5 | Data Cleaning | ✅ Completed |
+| Day 6 | Data Visualization | ✅ Completed |
 
 ---
 
