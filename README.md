@@ -20,6 +20,7 @@ This repository contains my daily tasks and projects completed during the **Codo
 | Day 4 | Pandas & Dataset Loading | ✅ Completed |
 | Day 5 | Data Cleaning | ✅ Completed |
 | Day 6 | Data Visualization | ✅ Completed |
+| Day 7 | Machine Learning Basics | ✅ Completed |
 
 ---
 
@@ -43,31 +44,31 @@ Codomax-AI-ML-Internship/
 ├── Day3.ipynb
 ├── Day4.ipynb
 ├── Day5.ipynb
+├── Day6.ipynb
+├── Day7.ipynb
 ├── student_scores.csv
 ├── student_scores_cleaned.csv
+├── scatter_plot.png
+├── line_chart.png
+├── bar_chart.png
 └── .gitignore
 ```
 
----
-
-## 📌 Day 5 – Data Cleaning
+## 📌 Day 7 – Machine Learning Basics
 
 ### Objective
-Prepare the dataset for Machine Learning by handling missing values, removing duplicate records, and analyzing dataset statistics.
+Understand the fundamentals of Machine Learning by learning Supervised Learning, Train-Test Split, and Linear Regression concepts.
 
 ### Tasks Completed
-- Loaded the dataset using Pandas.
-- Checked for missing values.
-- Removed missing values (if any).
-- Checked for duplicate records.
-- Removed duplicate rows.
-- Generated descriptive statistics.
-- Saved the cleaned dataset as **student_scores_cleaned.csv**.
+- Loaded the cleaned dataset.
+- Selected Feature (X) and Target (y).
+- Learned Supervised Learning concepts.
+- Understood Linear Regression fundamentals.
+- Split the dataset into 80% Training and 20% Testing sets using Scikit-learn.
+- Displayed training and testing datasets.
 
 ### Outcome
-The dataset is now clean and ready for the next phase: **Data Visualization and Machine Learning Model Building**.
-
----
+Successfully prepared the dataset for Machine Learning model training using Train-Test Split. The dataset is now ready for building a Linear Regression model.
 
 ## 🎯 Learning Outcome
 
@@ -77,8 +78,9 @@ This repository showcases my progress in:
 - NumPy
 - Pandas
 - Data Cleaning
-- Data Analysis
+- Data Visualization
 - Machine Learning Fundamentals
+- Scikit-learn
 - Git & GitHub
 
 ---
