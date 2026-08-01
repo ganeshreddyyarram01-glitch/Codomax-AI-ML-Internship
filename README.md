@@ -21,6 +21,7 @@ This repository contains my daily tasks and projects completed during the **Codo
 | Day 5 | Data Cleaning | ✅ Completed |
 | Day 6 | Data Visualization | ✅ Completed |
 | Day 7 | Machine Learning Basics | ✅ Completed |
+| Day 8 | Linear Regression Model | ✅ Completed |
 
 ---
 
@@ -30,6 +31,8 @@ This repository contains my daily tasks and projects completed during the **Codo
 - Jupyter Notebook
 - NumPy
 - Pandas
+- Matplotlib
+- Scikit-learn
 - Git & GitHub
 
 ---
@@ -46,6 +49,7 @@ Codomax-AI-ML-Internship/
 ├── Day5.ipynb
 ├── Day6.ipynb
 ├── Day7.ipynb
+├── Day8.ipynb
 ├── student_scores.csv
 ├── student_scores_cleaned.csv
 ├── scatter_plot.png
@@ -54,21 +58,30 @@ Codomax-AI-ML-Internship/
 └── .gitignore
 ```
 
-## 📌 Day 7 – Machine Learning Basics
+## 📌 Day 8 – Linear Regression Model
 
 ### Objective
-Understand the fundamentals of Machine Learning by learning Supervised Learning, Train-Test Split, and Linear Regression concepts.
+
+Build a simple Linear Regression model to understand the relationship between study hours and student scores.
 
 ### Tasks Completed
+
 - Loaded the cleaned dataset.
-- Selected Feature (X) and Target (y).
-- Learned Supervised Learning concepts.
-- Understood Linear Regression fundamentals.
-- Split the dataset into 80% Training and 20% Testing sets using Scikit-learn.
-- Displayed training and testing datasets.
+- Selected **StudyHours** as the feature (X).
+- Selected **Score** as the target (y).
+- Split the dataset into **80% Training** and **20% Testing** sets.
+- Initialized the Linear Regression model.
+- Trained the model using the training dataset.
+- Displayed the model coefficient and intercept.
+- Generated predictions for the testing dataset.
+- Compared actual and predicted scores.
+- Visualized the regression line with the training data.
 
 ### Outcome
-Successfully prepared the dataset for Machine Learning model training using Train-Test Split. The dataset is now ready for building a Linear Regression model.
+
+Successfully built and trained a Linear Regression model capable of predicting student scores based on study hours. The regression line clearly demonstrates the relationship between study time and performance.
+
+---
 
 ## 🎯 Learning Outcome
 
@@ -80,6 +93,7 @@ This repository showcases my progress in:
 - Data Cleaning
 - Data Visualization
 - Machine Learning Fundamentals
+- Linear Regression
 - Scikit-learn
 - Git & GitHub
 
