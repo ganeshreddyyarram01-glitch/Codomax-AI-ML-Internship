@@ -13,7 +13,7 @@ This repository contains my daily tasks and projects completed during the **Codo
 ## 📅 Internship Progress
 
 | Day | Task | Status |
-|------|-------------------------|-----------|
+|------|------------------------------|-----------|
 | Day 1 | Environment Setup | ✅ Completed |
 | Day 2 | Python Basics | ✅ Completed |
 | Day 3 | NumPy Fundamentals | ✅ Completed |
@@ -22,6 +22,7 @@ This repository contains my daily tasks and projects completed during the **Codo
 | Day 6 | Data Visualization | ✅ Completed |
 | Day 7 | Machine Learning Basics | ✅ Completed |
 | Day 8 | Linear Regression Model | ✅ Completed |
+| Day 9 | Model Evaluation & Prediction | ✅ Completed |
 
 ---
 
@@ -50,6 +51,7 @@ Codomax-AI-ML-Internship/
 ├── Day6.ipynb
 ├── Day7.ipynb
 ├── Day8.ipynb
+├── Day9.ipynb
 ├── student_scores.csv
 ├── student_scores_cleaned.csv
 ├── scatter_plot.png
@@ -58,28 +60,41 @@ Codomax-AI-ML-Internship/
 └── .gitignore
 ```
 
-## 📌 Day 8 – Linear Regression Model
+---
+
+## 📌 Day 9 – Model Evaluation & Prediction
 
 ### Objective
 
-Build a simple Linear Regression model to understand the relationship between study hours and student scores.
+Evaluate the performance of the trained Linear Regression model using standard regression metrics and make predictions for custom study hours.
 
 ### Tasks Completed
 
-- Loaded the cleaned dataset.
-- Selected **StudyHours** as the feature (X).
-- Selected **Score** as the target (y).
-- Split the dataset into **80% Training** and **20% Testing** sets.
-- Initialized the Linear Regression model.
-- Trained the model using the training dataset.
-- Displayed the model coefficient and intercept.
-- Generated predictions for the testing dataset.
-- Compared actual and predicted scores.
-- Visualized the regression line with the training data.
+- Loaded the trained Linear Regression model.
+- Evaluated the model using:
+  - Mean Absolute Error (MAE)
+  - Mean Squared Error (MSE)
+  - Root Mean Squared Error (RMSE)
+  - R² Score
+- Measured the model's prediction accuracy.
+- Predicted the score for a student studying **9.25 hours/day**.
+- Displayed the evaluation results and prediction.
+
+### Model Evaluation Results
+
+- **MAE:** 3.98
+- **MSE:** 17.81
+- **RMSE:** 4.22
+- **R² Score:** 0.8219 (82.19%)
+
+### Custom Prediction
+
+- **Study Hours:** 9.25 Hours
+- **Predicted Score:** **91.36%**
 
 ### Outcome
 
-Successfully built and trained a Linear Regression model capable of predicting student scores based on study hours. The regression line clearly demonstrates the relationship between study time and performance.
+Successfully evaluated the Linear Regression model and verified its prediction performance using multiple evaluation metrics. The model achieved approximately **82.19% accuracy** and accurately predicted scores for new input values.
 
 ---
 
@@ -94,6 +109,8 @@ This repository showcases my progress in:
 - Data Visualization
 - Machine Learning Fundamentals
 - Linear Regression
+- Model Evaluation
+- Regression Metrics (MAE, MSE, RMSE, R²)
 - Scikit-learn
 - Git & GitHub
 
