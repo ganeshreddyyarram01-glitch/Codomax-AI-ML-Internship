@@ -15,7 +15,7 @@ This repository contains my daily tasks, assignments, and projects completed dur
 # 📅 Internship Progress
 
 | Day | Task | Status |
-|------|-------------------------------|-----------|
+|------|----------------------------------|-----------|
 | Day 1 | Environment Setup | ✅ Completed |
 | Day 2 | Python Basics | ✅ Completed |
 | Day 3 | NumPy Fundamentals | ✅ Completed |
@@ -24,7 +24,9 @@ This repository contains my daily tasks, assignments, and projects completed dur
 | Day 6 | Data Visualization | ✅ Completed |
 | Day 7 | Machine Learning Basics | ✅ Completed |
 | Day 8 | Linear Regression Model | ✅ Completed |
-| Day 9 | Model Evaluation & Prediction | ✅ Completed |
+| Day 9 | Prediction Tasks | ✅ Completed |
+| Day 10 | Model Evaluation | ✅ Completed |
+| Day 11 | Student Score Prediction App | ✅ Completed |
 
 ---
 
@@ -36,6 +38,7 @@ This repository contains my daily tasks, assignments, and projects completed dur
 - Pandas
 - Matplotlib
 - Scikit-learn
+- ipywidgets
 - Git
 - GitHub
 
@@ -56,6 +59,8 @@ Codomax-AI-ML-Internship/
 ├── Day7.ipynb
 ├── Day8.ipynb
 ├── Day9.ipynb
+├── Day10.ipynb
+├── Day11.ipynb
 │
 ├── student_scores.csv
 ├── student_scores_cleaned.csv
@@ -64,71 +69,60 @@ Codomax-AI-ML-Internship/
 ├── scatter_plot.png
 ├── line_chart.png
 ├── bar_chart.png
+├── day10_residual_plot.png
 │
 └── .gitignore
 ```
 
 ---
 
-# 📌 Day 9 – Model Evaluation & Prediction
+# 📌 Day 11 – Student Score Prediction App
 
 ## 🎯 Objective
 
-Evaluate the performance of the trained **Linear Regression** model using standard regression metrics and generate predictions for new study-hour values.
+Develop a simple Python application that predicts a student's score based on the number of study hours entered by the user.
 
 ---
 
 ## ✅ Tasks Completed
 
-- Loaded the cleaned dataset.
+- Loaded the cleaned student dataset.
 - Trained the Linear Regression model.
-- Evaluated the model using:
-  - Mean Absolute Error (MAE)
-  - Mean Squared Error (MSE)
-  - Root Mean Squared Error (RMSE)
-  - R² Score
-- Predicted the score for a student studying **9.25 hours/day**.
-- Generated predictions for multiple study-hour values.
-- Saved batch prediction results as **day9_predictions.csv**.
-- Displayed prediction outputs in a clean tabular format.
+- Built an interactive prediction application using **ipywidgets**.
+- Allowed users to enter study hours.
+- Predicted student scores instantly.
+- Added input validation for valid study-hour values.
+- Created a terminal (CLI) version of the prediction app.
+- Displayed prediction results in a user-friendly format.
 
 ---
 
-## 📊 Model Evaluation Results
+## 💻 Application Features
 
-| Metric | Value |
-|---------|-------|
-| Mean Absolute Error (MAE) | **3.98** |
-| Mean Squared Error (MSE) | **17.81** |
-| Root Mean Squared Error (RMSE) | **4.22** |
-| R² Score | **0.8219 (82.19%)** |
+- Interactive user interface inside Jupyter Notebook.
+- Terminal-based prediction program.
+- Real-time score prediction.
+- Validates user input.
+- Prevents invalid study-hour values.
+- Uses the trained Linear Regression model.
 
 ---
 
-## 🔮 Custom Prediction
+## 🚀 Sample Prediction
 
 | Study Hours | Predicted Score |
 |-------------|-----------------|
-| **9.25 Hours** | **91.36%** |
-
----
-
-## 📈 Batch Prediction Results
-
-| Study Hours | Predicted Score (%) |
-|-------------|---------------------|
-| 2.50 | 33.28 |
-| 4.00 | 46.19 |
-| 6.50 | 67.70 |
-| 8.00 | 80.61 |
-| 9.25 | 91.36 |
-| 10.00 | 97.81 |
+| 4.0 Hours | 46.19% |
+| 6.5 Hours | 67.70% |
+| 8.0 Hours | 80.61% |
+| 9.25 Hours | 91.36% |
+| 10.0 Hours | 97.81% |
 
 ---
 
 ## ✅ Outcome
 
-Successfully evaluated the Linear Regression model using multiple regression metrics and generated predictions for both custom and multiple study-hour inputs. The model achieved an **R² Score of approximately 82.19%**, indicating a strong relationship between study hours and student scores.
+Successfully developed a simple Student Score Prediction Application that allows users to enter study hours and instantly receive a predicted score using a trained Linear Regression model.
 
 ---
 
@@ -145,9 +139,11 @@ During this internship, I have gained practical experience in:
 - Supervised Learning
 - Train-Test Split
 - Linear Regression
+- Prediction using Machine Learning Models
 - Model Evaluation
 - Regression Metrics (MAE, MSE, RMSE, R²)
-- Prediction using Machine Learning Models
+- Interactive Python Applications
+- ipywidgets
 - Scikit-learn
 - Git & GitHub
 
@@ -155,16 +151,16 @@ During this internship, I have gained practical experience in:
 
 # 🚀 Future Work
 
-The upcoming internship tasks will include:
+Upcoming internship tasks include:
 
 - Advanced Machine Learning Algorithms
 - Classification Models
 - Model Optimization
-- Data Science Projects
+- Model Deployment
 - Real-world AI/ML Applications
 
 ---
 
 ⭐ **Thank you for visiting this repository!**
 
-I will continue updating this repository as I complete more tasks during my **Codomax AI/ML Internship**.
+I will continue updating this repository as I complete more tasks during my **Codomax Digital Solutions AI/ML Internship**.
